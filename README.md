@@ -108,6 +108,44 @@ warning: build failed, waiting for other jobs to finish...
 
 ```
 
+My tauri env:
+
+```sh
+C:\repos\tauri2-openssl-issue (main -> origin)
+λ pnpm tauri info
+
+> tauri2-openssl@0.0.0 tauri C:\repos\tauri2-openssl-issue
+> tauri "info"
+
+
+[✔] Environment
+    - OS: Windows 10.0.22631 X64
+    ✔ WebView2: 122.0.2365.92
+    ✔ MSVC: Visual Studio Community 2022
+    ✔ rustc: 1.76.0 (07dca489a 2024-02-04)
+    ✔ cargo: 1.76.0 (c84b36747 2024-01-18)
+    ✔ rustup: 1.27.0 (bbb9276d2 2024-03-08)
+    ✔ Rust toolchain: stable-x86_64-pc-windows-msvc (default)
+    - node: 20.11.1
+    - pnpm: 8.15.5
+    - npm: 10.2.4
+
+[-] Packages
+    - tauri [RUST]: 2.0.0-beta.13
+    - tauri-build [RUST]: 2.0.0-beta.10
+    - wry [RUST]: 0.37.0
+    - tao [RUST]: 0.26.1
+    - @tauri-apps/api [NPM]: 2.0.0-beta.6
+    - @tauri-apps/cli [NPM]: 2.0.0-beta.11
+
+[-] App
+    - build-type: bundle
+    - CSP: unset
+    - frontendDist: ../dist
+    - devUrl: http://localhost:1420/
+    - bundler: Vite
+```
+
 ## Tauri + Vanilla TS
 
 This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
