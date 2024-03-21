@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tauri2-openssl</string>
+    <string name="main_activity_title">tauri2-openssl</string>
+</resources>
